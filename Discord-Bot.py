@@ -27,8 +27,9 @@ CRINGE_VAR = "https://cdn.discordapp.com/attachments/453079493322473472/73921323
 # Says that that bot is ready on bot
 @client.event
 async def on_ready():
+    await client.change_presence(status=discord.Status.online, activity=discord.Game("Am Doggo Bot))
     print("Bot is Ready")
-
+     
 # Sends pics of doggos
 @client.command()
 async def doggo(context):
