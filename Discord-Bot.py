@@ -22,8 +22,6 @@ client = commands.Bot(command_prefix= '!')
 
 TOKEN = "Insert Secert Code"
 
-CRINGE_VAR = "https://cdn.discordapp.com/attachments/453079493322473472/739213236037091339/ripsave_-_Mario_had_enough.mp4"
-
 # Says that that bot is ready on bot
 @client.event
 async def on_ready():
@@ -44,11 +42,6 @@ async def bark(context):
 @client.command()
 async def bork(context):
     await context.send('Bork!')
-
-# Sends Cringe Video
-@client.command()
-async def cringe(context):
-    await context.send(CRINGE_VAR)
 
 ############################### Dices Below ###############################
 
