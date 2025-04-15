@@ -2,21 +2,10 @@ import random as r
 import discord
 from discord.ext import commands
 
-dog_Pic_List = [
-    "https://cdn.discordapp.com/attachments/406954453648801794/767162413086408714/Shiba_Inu_1.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767162459210776597/standing_shiba.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767162480312844298/yawning_shiba.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767162545224024094/spring_shiba.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767162572969082920/sleepy_boi.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767260785905893386/good_heart.png",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767260789643149323/shiba_pfp_2.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767260792604459028/Charlie_and_the_chocolate_dog.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767260796652093460/cheecks.png",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767260803682271242/Floofer_shiba.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767260800465240084/cheeks_2.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767260806353125396/goodest_dog.jpg",
-    "https://cdn.discordapp.com/attachments/406954453648801794/767260808974958602/good_looking_boi.jpg"
-]
+'''
+// Outdated
+dog_Pic_List = []
+'''
 
 client = commands.Bot(command_prefix= '!')
 
